@@ -20,7 +20,7 @@ public class Main extends Application{
 	public void start(Stage st) {
 		Fenetre fen = new Fenetre();
 		st.setTitle("Lissajous");
-		st.setScene(new Scene(fen, 800, 800));
+		st.setScene(new Scene(fen, 1000, 800));
 		st.show();
 	}
 }

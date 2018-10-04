@@ -23,7 +23,7 @@ public abstract class Case {
 		float px = x * (Fenetre.WIDTH() + Fenetre.MARGIN())+ Fenetre.MARGIN() + 5;
 		float py = y * (Fenetre.WIDTH() + Fenetre.MARGIN())+ Fenetre.MARGIN() + 5;
 		position = new Point(px, py);
-		couleur = Color.rgb((int)(x * 20), (int)(y * 5), (int)(y*20));
+		couleur = Color.rgb((int)(x * 10), (int)(y * 5), (int)(y*10));
 	}
 	
 	/**

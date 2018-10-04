@@ -33,7 +33,7 @@ public class Fenetre extends Pane {
 	public Fenetre() {
 		super();
 		
-		canvas = new Canvas(790, 790);
+		canvas = new Canvas(990, 790);
 		this.getChildren().add(canvas);
 		gc = canvas.getGraphicsContext2D();
 		this.initCases();
