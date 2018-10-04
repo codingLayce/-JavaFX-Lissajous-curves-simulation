@@ -14,7 +14,7 @@ Le cercle le plus à droite et le plus en bas est le plus rapide.
 
 Les points des cercles du haut représentent l'abscisse d'une droite d.
 Les points des cercles de gauche représentent l'ordonnée d'une droite d'.
-Le point d'intersection de d et d' est ajouté à la figure représantant la case (lieu d'intersection d'un cercle de haut avec un cercle de bas).
+Le point d'intersection de d et d' est ajouté à la figure représantant la case (lieu d'intersection d'un cercle du haut avec un cercle de bas).
 
 L'animation s'arrête quand le point du cercle le plus lent (en haut à gauche) a fait un tour.
 
