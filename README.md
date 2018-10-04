@@ -5,6 +5,7 @@ Voici un petit projet que j'ai rapidement réalisé après avoir visionné la vi
 Coding Challenge #116: Lissajous Curve Table - https://www.youtube.com/watch?v=--6eyLO78CY.
 
 Ce projet a pour but de créer un tableau de courbes de lissajous (cf: https://fr.wikipedia.org/wiki/Courbe_de_Lissajous).
+![alt text](lissajous.PNG)
 Pour se faire le programme pose des cercles le long en haut et sur le côté gauche.
 
 Un point rouge est placé sur le côté droit de chacun des cercles, et tourne autour de celui-ci.
