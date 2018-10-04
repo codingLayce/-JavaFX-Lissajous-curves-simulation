@@ -28,11 +28,11 @@ public class Cercle extends Case {
 		diametre = Fenetre.WIDTH();
 		rayon = diametre /2;
 		centre = new Point(position.getX() + rayon, position.getY() + rayon);
-		point = new Point((float)(rayon * Math.cos(Math.toRadians(angle)) + centre.getX()), (float)(rayon * Math.sin(Math.toRadians(angle)) + centre.getY()));
+		point = new Point((float)(rayon * Math.cos(angle) + centre.getX()), (float)(rayon * Math.sin(angle) + centre.getY()));
 		if (x != 0)
-			speed = x * 0.5f;
+			speed = x * 0.01f;
 		else
-			speed = y * 0.5f;
+			speed = y * 0.01f;
 	}
 	
 	@Override
@@ -52,8 +52,8 @@ public class Cercle extends Case {
 	@Override
 	public void update() {
 		angle += speed;
-		point.setX((float)(rayon * Math.cos(Math.toRadians(angle)) + centre.getX()));
-		point.setY((float)(rayon * Math.sin(Math.toRadians(angle)) + centre.getY()));
+		point.setX((float)(rayon * Math.cos(angle) + centre.getX()));
+		point.setY((float)(rayon * Math.sin(angle) + centre.getY()));
 	}
 	
 	/**
@@ -61,7 +61,7 @@ public class Cercle extends Case {
 	 * @return true si deja fait, false sinon.
 	 */
 	public boolean aFaitTour() {
-		if (angle > 360) {
+		if (angle > Math.PI * 2) {
 			angle = 0;
 			return true;
 		} else

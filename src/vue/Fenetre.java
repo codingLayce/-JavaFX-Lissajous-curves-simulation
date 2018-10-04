@@ -78,7 +78,7 @@ public class Fenetre extends Pane {
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.setRate(1.0);
-        timeline.setCycleCount((int)(360*2));
+        timeline.setCycleCount((int)((Math.PI * 2)/0.01));
         timeline.play();
 	}
 	
